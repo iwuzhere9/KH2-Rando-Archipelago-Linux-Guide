@@ -1,6 +1,6 @@
 # KH2-Rando-Archipelago-Linux-Guide
 
-# KH2 Randomizer Additional Tools Setup for Steam Deck
+# KH2 Archipelago Setup for Steam Deck
 
 > [!IMPORTANT]
 > - This guide was built specifically for Steam Deck users, so if you're on another Linux distro, you may have to play around with more things to get it all running smoothly.
