@@ -33,10 +33,6 @@ Your file paths may vary slightly for where the download is, and I haven't had e
 
 Running this will open the installer for Archipelago, which you will just follow the on screen instructions to get set up. Afterwards, assuming you leave the box enabled, the base Archipelago client should open on its own!
 
-# Installing and Setting Up The AP Tracker
-
-Since Archipelago uses a different tracker from the standard Randomizer Tracker, we'll have to go through a few more steps to ensure we have everything ready to go. 
-
 # Launching the KH2 Archipelago Client
 
 Next, you will return to Steam and add another Non-Steam Game, this time you will want to add the ArchipelagoKH2Client.exe, and once again add `STEAM_COMPAT_LAUNCHER_SERVICE=proton` and match the compatibility layer with Proton.
@@ -55,9 +51,11 @@ And again for reference, this is what I use to launch the Client:
 
 After you launch the client, refer back to your Archipelago room to enter the connect command. Once you've done so, you're ready to play!
 
+If you want to use the AP tracker, you would follow the same steps as before, adding the .exe to steam, setting the Launch Options, Proton layer, and then launching from Konsole. 
+
 # Credits
 
-I take zero credit for any of the information here, I just pulled together what was put out and worked into a unified guide.
+This was largely built from the work I did on the standard rando guide I have up for the KH2 Tracker and Livesplit, so I'll give some shoutouts to the folks who got me to the point I could compile this.
 
 A MASSIVE thanks goes to [baili0411](https://github.com/baili0411) for suggesting the method to launch from Konsole, which has opened up more options for the Linux side of Rando. 
 
@@ -65,4 +63,4 @@ Another huge shoutout goes to [KHOmega](https://github.com/KHOmega) for maintain
 
 Lastly, a big thank you to all the contributors for the Randomizer and Guide on the [main page](https://tommadness.github.io/KH2Randomizer) for the Randomizer. 
 
-If anything breaks or if you have any issues, sound off in the #help channel on the KH2 Rando discord, lots of folk more qualified than me can help, but if its something about this guide itself you can also DM me on discord.
+If anything breaks or if you have any issues, feel free to send me a DM on Discord and I'll see if I can help!
