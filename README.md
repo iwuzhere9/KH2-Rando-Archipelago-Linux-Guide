@@ -28,7 +28,7 @@ At this point, you will need to open Konsole and run the following command, ensu
 
 Your file paths may vary slightly for where the download is, and I haven't had enough exposure to know if there is any variation in the strings for where `steam-runtime-launch-client` is located, so you'll need to do some digging. Good practice would be to keep a text file in an easy to find location that you can keep the command strings saved for ease of access on subsequent uses, and to allow editing for the correct file paths. On my Deck, the full command looks like:
 
-`/home/deck/dot-steam.bak.1752894734/steam/steamapps/common/SteamLinuxRuntime_sniper/pressure-vessel/bin/steam-runtime-launch-client \
+`/home/deck/.steam/steam/steamapps/common/SteamLinuxRuntime_sniper/pressure-vessel/bin/steam-runtime-launch-client \
 --bus-name=com.steampowered.App2552430 -- wine /home/deck/Downloads/Setup.Archipelago.0.6.3.exe`
 
 Running this will open the installer for Archipelago, which you will just follow the on screen instructions to get set up. Afterwards, assuming you leave the box enabled, the base Archipelago client should open on its own!
@@ -46,7 +46,7 @@ The command is largely the same as what we used for the installer, just ensuring
 
 And again for reference, this is what I use to launch the Client:
 
-`/home/deck/dot-steam.bak.1752894734/steam/steamapps/common/SteamLinuxRuntime_sniper/pressure-vessel/bin/steam-runtime-launch-client \
+`/home/deck/.steam/steam/steamapps/common/SteamLinuxRuntime_sniper/pressure-vessel/bin/steam-runtime-launch-client \
 --bus-name=com.steampowered.App2552430 -- wine /home/deck/.local/share/Steam/steamapps/compatdata/2552430/pfx/drive_c/ProgramData/Archipelago/ArchipelagoKH2Client.exe`
 
 After you launch the client, refer back to your Archipelago room to enter the connect command. Once you've done so, you're ready to play!
