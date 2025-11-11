@@ -15,7 +15,9 @@ As a note, I don't play Archipelago as much as I do base rando, so if something 
 
 You'll want to go to the [Archipelago GitHub](https://github.com/ArchipelagoMW/Archipelago/releases/latest) page to download the most recent stable release of the Windows version, not the Linux version. To ensure that the game and other tools all work on the same layer, we have to use the Windows version rather than the Linux native version. Once you have the .exe downloaded, ensure that you know the file path to the .exe itself. 
 
-Moving to Steam, you will want to right click on your copy of Kingdom Hearts in your Library and open up the Properties. Under the Launch Options, enter the following string `STEAM_COMPAT_LAUNCHER_SERVICE=proton WINEDLLOVERRIDES="version,dinput8=n,b" %command%` to ensure that the game launches with Proton and choose either Experimental or 9.0-4 as the Compatability Layer to force the game to run under. Many guides suggest Experimental, but I've had no issues with 9.0-4 to date. 
+Moving to Steam, you will want to right click on your copy of Kingdom Hearts in your Library and open up the Properties. Under the Launch Options, enter the following string `STEAM_COMPAT_LAUNCHER_SERVICE=proton` to ensure that the game launches with Proton and choose either Experimental or 9.0-4 as the Compatability Layer to force the game to run under. Many guides suggest Experimental, but I've had no issues with 9.0-4 to date. 
+
+* If starting the game puts you on the Atlantica wedding boat rather than starting at the Station of Awakening, rename `LuaBackend.dll` in the KH install folder to `dinput8.dll` and change the launch string for the game to `STEAM_COMPAT_LAUNCHER_SERVICE=proton WINEDLLOVERRIDES="version,dinput8=n,b" %command%` and that should resolve the boat spawn. 
 
 After updating Kingdom Hearts, you will want to Install a Non-Steam game, choosing to add the Installer you downloaded earlier. After getting it in your library, once again go to the Launch Options and this time enter `STEAM_COMPAT_LAUNCHER_SERVICE=proton` and enable to same Proton layer you chose for KH. 
 
